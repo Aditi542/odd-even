@@ -1,18 +1,18 @@
-#include<iostream>
+#include<iostream> // header file
 using namespace std;
 
 int main()
 {
     int a;
-    cout<<"Enter a number : ";
+    cout<<"Enter a number : "; // asking for input
     cin>>a;
     if(a%2==0)
     {
-        cout<<endl<<"It is even";
+        cout<<endl<<"It is even";  // output
     }
     else
     {
-        cout<<endl<<"It is odd";
+        cout<<endl<<"It is odd";  // output
     }
     return 0;
 }
